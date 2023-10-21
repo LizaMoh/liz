@@ -22,7 +22,6 @@ header{
     background: url('../img/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
 }
 .container{
 max-width: 1280px;
@@ -236,3 +235,57 @@ margin-bottom: 70px;
 .buy-info>ul>li>img{
     margin-right: 10px;
 }
+.logo-brand{
+    max-width: 316px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo-brand>a{
+    margin-bottom: 46px;
+}
+.logo-brand>a:first-child{
+    margin-right: 76px;
+}
+.logo-brand>a:nth-child(3){
+    margin-right: 76px;
+}
+.logos{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: center;
+}
+.cyber{
+    padding-right: 29px;
+}
+.CD{
+    padding-right: 390PX;
+}
+.text2{
+    padding-top: 27px;
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+}
+.text2>:first-child{
+    padding-right: 32px;
+}
+.logos2{
+    background: #000;
+    height: 40px;
+    
+}
+.logos3{
+    display: flex;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    padding-top: 13px;
+}
+
+   
