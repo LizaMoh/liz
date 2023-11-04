@@ -345,35 +345,181 @@ margin-bottom: 70px;
     header{
         /* background-position-x: center; */
         background: url('../img/CB320.png');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .container{
-        max-width: 12px;
+        padding: 0 12px;
+    }
+    header>.container{
+        padding: 0;
     }
     .header-top {
-        background-position-x:center ;
+       flex-direction: column;
+       align-items: center;
+       padding: 0 12px;
+       m-bottom: 451px;
+    }
+    .header-top>a>img{
+        width: 200px;
+    }
+    .social{
+        padding-top: 10px;
+    }
+    .social>li{
+        margin-right: 28px;
+    }
+    .social>li>a>img{
+        width: 25px;
+    }
+    .yellow-box{
+        flex-direction: column;
+    }
+    .yellow-box2>h2{
+        font-size: 30px;
+    }
+    .yellow-box2>p{
+        font-size: 16px;
     }
     .yellow-box2>h2,.yellow-box2>p{
-        max-width: 460px;
+        max-width: 296px;
+    }
+    .yellow-box1>img{
+        max-width: 296px;
+    }
+    .logo-company{
+        flex-direction: row;
+    }
+    .logo-company>img:first-child{
+        width: 44px;
+    }
+    .logo-company>img:nth-child(2){
+        width: 50px;
+        margin: 0 13.7px;
+    }
+    .logo-company>img:last-child{
+       width: 175px;
     }
     .header-info{
-        align-items: center;
-        width: 295px;
-        padding: 30px 38px;
+        padding: 30px 36px;
+        background: none;
+        background: #F8F200;
+        clip-path: polygon(12% 0, 80% 0%, 100% 0, 100% 78%, 88% 100%, 0 100%, 0% 80%, 0 22%);
     }
     .header-info>h1{
-        font-size: 62px;
+        font-size: 30px;
         font-weight: 400;
+        text-align: center;
         
+    }
+    .header-info>button{
+        font-style: 20px;
     }
     .title{
         color: #000;
         font-size: 30px;
         font-weight: 400;
-        width: 296px;
+        padding: 0 12px;
+        margin-top: 70px;
+        margin-bottom: 25px;
+
     }
     .text{
-        max-width: 296px;
+       padding: 0 12px;
+       font-size: 16px;
     }
+    .buy{
+        flex-direction: column;
+        
+    }
+    .buy-bg{
+        flex-basis: auto;
+        height: 198px;
+    }
+    .buy-info{
+        flex-basis: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .buy-info>h2{
+        font-size: 30px;
+        max-width: 296px;
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .buy-info>ul>li{
+        font-size: 16px;
+       
+    }
+    .logo-brand{
+        padding: 0;
+        max-width: 100%;
+        padding-top: 26px;
+    }
+    .logo-brand>a:first-child{
+        margin-right: 56px;
+    }
+    .logo-brand>a:nth-child(3){
+        margin-right: 70px;
+
+    }
+    .logos{
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 0;
+    }
+    .logor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logor>a:first-child>img{
+        width: 200px;
+    }
+    .logor>a:last-child>img{
+        width: 116.25px;
+    }
+    .text2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+       padding-bottom: 25px;
+    }
+    footer>.container{
+        padding: 0;
+        max-width: 100%;
+    }
+    .text2>a:first-child{
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .text2::after{
+        position: absolute;
+        content: "";
+        background: #E6E6E6;
+        width: 100%;
+        height: 103px;
+        bottom: 0;
+        left: 0;
+        z-index: -1000;
+
+    }
+    .a>.container{
+        padding: 0;
+    }
+    .photo2{
+        background-position-x: center;
+    }
+    .item1{
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+    .photo2{
+        width: 100%;
+    }
+
 }
 
    
