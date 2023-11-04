@@ -401,10 +401,13 @@ margin-bottom: 70px;
        width: 175px;
     }
     .header-info{
-        padding: 30px 36px;
-        background: none;
+        padding: 30px 34px;
         background: #F8F200;
         clip-path: polygon(12% 0, 80% 0%, 100% 0, 100% 78%, 88% 100%, 0 100%, 0% 80%, 0 22%);
+       margin-bottom: -34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .header-info>h1{
         font-size: 30px;
@@ -420,7 +423,7 @@ margin-bottom: 70px;
         font-size: 30px;
         font-weight: 400;
         padding: 0 12px;
-        margin-top: 70px;
+        margin-top: 104px;
         margin-bottom: 25px;
 
     }
