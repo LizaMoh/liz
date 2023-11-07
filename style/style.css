@@ -389,6 +389,7 @@ margin-bottom: 70px;
     }
     .logo-company{
         flex-direction: row;
+        margin-bottom: 46px;
     }
     .logo-company>img:first-child{
         width: 44px;
@@ -404,7 +405,7 @@ margin-bottom: 70px;
         padding: 30px 34px;
         background: #F8F200;
         clip-path: polygon(12% 0, 80% 0%, 100% 0, 100% 78%, 88% 100%, 0 100%, 0% 80%, 0 22%);
-       margin-bottom: -34px;
+        margin-bottom: -40px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -416,7 +417,7 @@ margin-bottom: 70px;
         
     }
     .header-info>button{
-        font-style: 20px;
+        font-size: 20px;
     }
     .title{
         color: #000;
@@ -455,6 +456,9 @@ margin-bottom: 70px;
         font-size: 16px;
        
     }
+    .buy-info>ul>li:last-child{
+        padding-bottom: 40px;
+    }
     .logo-brand{
         padding: 0;
         max-width: 100%;
@@ -479,6 +483,7 @@ margin-bottom: 70px;
     }
     .logor>a:first-child>img{
         width: 200px;
+        padding-top: 40px;
     }
     .logor>a:last-child>img{
         width: 116.25px;
